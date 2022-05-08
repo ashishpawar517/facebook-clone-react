@@ -12,12 +12,12 @@ import {Checkbox} from "@mui/material";
 import {Favorite, FavoriteBorder} from "@mui/icons-material";
 import ShareIcon from "@mui/icons-material/Share";
 
-function FacebookPost() {
+function FacebookPost({avtar_text,title,descr,date,link}) {
     return (<Card sx={{m:5}}>
         <CardHeader
             avatar={
                 <Avatar sx={{bgcolor: "blue"}} aria-label="recipe">
-                    T
+                    {avtar_text}
                 </Avatar>
             }
             action={
@@ -25,20 +25,18 @@ function FacebookPost() {
                     <MoreVertIcon/>
                 </IconButton>
             }
-            title="Shrimp and Chorizo Paella"
-            subheader="September 14, 2016"
+            title={title}
+            subheader={date}
         />
         <CardMedia
             component="img"
             height="20%"
-            image="https://images.pexels.com/photos/8775535/pexels-photo-8775535.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            image={link}
             alt="Paella dish"
         />
         <CardContent>
             <Typography variant="body2" color="text.secondary">
-                This impressive paella is a perfect party dish and a fun meal to cook
-                together with your guests. Add 1 cup of frozen peas along with the mussels,
-                if you like.
+                {descr}
             </Typography>
         </CardContent>
         <CardActions disableSpacing>

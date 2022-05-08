@@ -8,7 +8,7 @@ import AddPostButton from "./components/AddPostButton";
 
 
 function App() {
-    const [mode, setMode] = useState("dark")
+    const [mode, setMode] = useState("light")
     const darkTheme = createTheme({
         palette: {
             mode: mode
