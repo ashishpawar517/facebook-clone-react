@@ -3,6 +3,7 @@ import FacebookFeed from "./components/FacebookFeed";
 import RightBar from "./components/Rightbar";
 import {Box, Stack} from "@mui/material";
 import FacebookNavBar from "./components/FacebookNavBar";
+import AddPostButton from "./components/AddPostButton";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <FacebookFeed/>
                 <RightBar/>
             </Stack>
+            <AddPostButton/>
         </Box>
     );
 }
