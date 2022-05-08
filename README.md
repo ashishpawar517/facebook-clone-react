@@ -53,7 +53,7 @@ Project is completed with basic features. You can request for new features. or F
 List of contriubutors:
 - [Ashish Pawar](https://github.com/ashishpawar517)
 
-<!-- ## License
+## License
 
-MIT license @ [Ashish Pawar](https://github.com/ashishpawar517/stickies-todo/blob/main/LICENSE)
- -->
+MIT license @ [Ashish Pawar](https://github.com/ashishpawar517/facebook-clone-react/blob/main/LICENSE)
+
